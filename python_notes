@@ -1,0 +1,21 @@
+Run Windows PowerShell as Administrator
+set-executionpolicy remotesigned
+
+Install Python from Microsoft store
+Install Git for Windows
+
+python --version
+pip3 --version
+
+python -m venv [name]
+
+LINUX/BASH: source [name]/bin/activate
+POWERSHELL: [name]\Scripts\Activate.ps1
+
+pip3 install pipwin
+pip3 install wheel
+pip3 install -r requirements
+
+
+chatterbot-corpus 1.2.0 has requirement PyYAML<4.0,>=3.12, but you'll have pyyaml 5.1.2 which is incompatible.
+chatterbot 1.0.5 has requirement pyyaml<5.2,>=5.1, but you'll have pyyaml 3.13 which is incompatible.
