@@ -1,0 +1,5 @@
+Hello, what is your name?
+Hello {}, how are you?
+What is the best thing that happened to you today?
+Tell me more about {}, that sounds interesting
+How do you feel about {}?
