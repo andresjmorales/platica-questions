@@ -26,6 +26,9 @@ is_noun = lambda pos: pos[:2] == 'NN'
 responses = [""]
 first_nouns = [""]
 
+
+
+'''
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Speak anything: ")
@@ -36,7 +39,7 @@ with sr.Microphone() as source:
         print("You said: {}".format(text))
     except:
         print("Could not recognize your voice.")
-        
+'''        
         
         
         
